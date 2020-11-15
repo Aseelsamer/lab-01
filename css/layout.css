@@ -1,4 +1,4 @@
-/* @media screen and (min-width:480px) and (max-width:767px){
+@media screen and (min-width:480px) and (max-width:767px){
     .one{
         border-bottom: 1px;
         width: 480px;
@@ -76,12 +76,6 @@
         line-height:80px ;
     }
 
-div{
-    font-size: larger;
-    font-weight: bolder;
-    text-align: center;
-    /* border: 1px solid; */
-}
     
 }
 
@@ -178,11 +172,6 @@ border-bottom: 1px;
     }
 
 }
-    div{
-        font-size: larger;
-        font-weight: bolder;
-        text-align: center;
-        /* border: 1px solid; */
-    } */
+   
 
 
