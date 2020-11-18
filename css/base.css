@@ -1,95 +1,26 @@
-@media screen and (min-width:480px) and (max-width:767px){
-    .one{
-        background-color: hotpink;
-    }
-    
-    .two{
-        background-color: indigo;
-    }
 
-    .three{
-        background-color: rgb(140, 112, 160);
-    }
-
-    .four{
-        background-color: rgb(145, 6, 103);
-    }
-
-    .five{
-        background-color: rgb(53, 52, 54);
-    }
-
-    .six{
-        background-color: rgb(105, 22, 94);
-    }
-
-    .seven{
-        background-color: rgb(199, 81, 173);
-    }
-    .eight{
-        background-color: rgb(67, 10, 105);
-    }
-    .nine{
-        background-color: rgb(138, 3, 32);
-        
-    }
-
-
-    
-}
-
-@media screen and (min-width:768px) and (max-width:960px){
-    .one{
-        background-color: rgb(160, 94, 127);
-       
-    }
-    
-    .two{
-        background-color: rgb(108, 69, 128);
-    }
-
-    .three{
-        background-color: rgb(183, 139, 226);  
-    }
-
-    .four{
-        background-color: rgb(209, 141, 209);
-       
-    }
-
-    .five{
-        background-color: rgb(156, 128, 184);
-       
-    }
-
-    .six{
-        
-        background-color: rgb(133, 86, 126);
-       
-    }
-
-    .seven{
-       
-        background-color: rgb(150, 118, 118);
-       
-    }
-    .eight{
-       
-        background-color: rgb(118, 119, 122);
-        
-    }
-    .nine{
-        background-color: rgb(146, 125, 128);
-        
-        
-    }
-
-}
-   
 div{
     font-size: larger;
     font-weight: bolder;
     text-align: center;
     /* border: 1px solid; */
+
+    justify-content: center;
 }
+
+*{
+    box-sizing: border-box;
+}
+
+
+
+body{
+    width: 480px;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+=======
+}
+
 
