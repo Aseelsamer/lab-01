@@ -2,7 +2,7 @@
   
 @media screen and (min-width:480px) and (max-width:767px){
     .one{
-       border: solid 1px;
+       border: solid 2px black;
         width: 480px;
         height: 75px;
         background-color: hotpink;
@@ -14,9 +14,9 @@
         height: 150px;
         background-color: indigo;
         line-height: 150px;
-        border-bottom: solid 1px;
-        border-right: solid 1px;
-        border-left: solid 1px;
+        border-bottom: solid 2px black;
+        border-right: solid 2px black;
+        border-left: solid 2px black;
     }
 
     .three{
@@ -24,9 +24,9 @@
         height: 125px;
         background-color: rgb(140, 112, 160);
         line-height: 125px;
-        border-bottom: solid 1px;
-        border-right: solid 1px;
-        border-left: solid 1px;
+        border-bottom: solid 2px black;
+        border-right: solid 2px black;
+        border-left: solid 2px black;
     }
 
     .four{
@@ -34,9 +34,9 @@
         height: 125px;
         background-color: rgb(145, 6, 103);
         line-height: 125px;
-        border-bottom: solid 1px;
-        border-right: solid 1px;
-        border-left: solid 1px;
+        border-bottom: solid 2px black;
+        border-right: solid 2px black;
+        border-left: solid 2px black;
     }
 
     .five{
@@ -44,9 +44,8 @@
         height: 250px;
         background-color: rgb(53, 52, 54);
         line-height: 250px;
-        border-bottom: solid 1px;
-        border-right: solid 1px;
-        border-left: solid 1px;
+        border-bottom: solid 2px black;
+        border-left: solid 2px black;
     }
 
     .six{
@@ -54,9 +53,9 @@
         height: 250px;
         background-color: rgb(105, 22, 94);
         line-height: 250px;
-        border-bottom: solid 1px;
-        border-right: solid 1px;
-        border-left: solid 1px;
+        border-bottom: solid 2px black;
+        border-right: solid 2px black;
+        border-left: solid 2px black;
     }
 
     .seven{
@@ -64,27 +63,26 @@
         height: 250px;
         background-color: rgb(199, 81, 173);
         line-height: 250px;
-        border-bottom: solid 1px;
-        border-right: solid 1px;
-        border-left: solid 1px;
+        border-bottom: solid 2px black;
+        border-left: solid 2px black;
     }
     .eight{
         width: 240px;
         height: 250px;
         background-color: rgb(67, 10, 105);
         line-height: 250px;
-        border-bottom: solid 1px;
-        border-right: solid 1px;
-        border-left: solid 1px;
+        border-bottom: solid 2px black;
+        border-right: solid 2px black;
+        border-left: solid 2px black;
     }
     .nine{
         width: 480px;
         height: 80px;
         background-color: rgb(138, 3, 32);
         line-height:80px ;
-        border-bottom: solid 1px;
-        border-right: solid 1px;
-        border-left: solid 1px;
+        border-bottom: solid 2px black;
+        border-right: solid 2px black;
+        border-left: solid 2px black;
     }
 
     #grid-container{
@@ -99,7 +97,7 @@
 
 @media screen and (min-width:768px) and (max-width:960px){
     .one{
-      border: solid 1px black;
+      border: solid 2px black;
         width: 960px;
         height: 100px;
         /* border: 1px solid; */
@@ -112,9 +110,9 @@
         height: 600px;
         background-color: rgb(108, 69, 128);
         line-height: 600px;
-        border-bottom: solid 1px black;
-        border-right: solid 1px black;
-        border-left: solid 1px black;
+        border-bottom: solid 2px black;
+        border-right: solid 2px black;
+        border-left: solid 2px black;
     }
 
     .three{
@@ -122,9 +120,9 @@
         height: 200px;
         background-color: rgb(183, 139, 226);
         line-height: 200px;
-        border-bottom: solid 1px black;
-        border-right: solid 1px black;
-        border-left: solid 1px black;   
+        border-bottom: solid 2px black;
+        border-right: solid 2px black;
+         
     }
 
     .four{
@@ -132,9 +130,9 @@
         height: 200px;
         background-color: rgb(209, 141, 209);
         line-height: 200px;
-        border-bottom: solid 1px black;
-        border-right: solid 1px black;
-        border-left: solid 1px black;
+        border-bottom: solid 2px black;
+        border-right: solid 2px black;
+       
     }
 
     .five{
@@ -143,9 +141,8 @@
         background-color: rgb(156, 128, 184);
         line-height: 250px;
         margin-left: 200px;
-        border-bottom: solid 1px black;
-        border-right: solid 1px black;
-        border-left: solid 1px black;
+        border-right: solid 2px black;
+       
     }
 
     .six{
@@ -153,9 +150,8 @@
         height: 250px;
         background-color: rgb(133, 86, 126);
         line-height: 250px;
-        border-bottom: solid 1px black;
-        border-right: solid 1px black;
-        border-left: solid 1px black;
+        border-right: solid 2px black;
+     
     }
 
     .seven{
@@ -163,27 +159,25 @@
         height: 250px;
         background-color: rgb(150, 118, 118);
         line-height: 250px;
-        border-bottom: solid 1px black;
-        border-right: solid 1px black;
-        border-left: solid 1px black;
+        border-right: solid 2px black;
     }
     .eight{
         width: 190px;
         height: 250px;
         background-color: rgb(118, 119, 122);
         line-height: 250px;
-        border-bottom: solid 1px black;
-        border-right: solid 1px black;
-        border-left: solid 1px black;
+        
+        border-right: solid 2px black;
+       
     }
     .nine{
         width: 760px;
         height: 150px;
         background-color: rgb(146, 125, 128);
         line-height:150px ;
-        border-bottom: solid 1px black;
-        border-right: solid 1px black;
-        border-left: solid 1px black;
+       border-bottom: black solid 2px;
+       border-top: solid black 2px;
+       border-right: solid black 2px;
         margin-left: 200px;
     }
 
