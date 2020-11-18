@@ -1,0 +1,209 @@
+
+  
+@media screen and (min-width:480px) and (max-width:767px){
+    .one{
+       border: solid 1px;
+        width: 480px;
+        height: 75px;
+        background-color: hotpink;
+        line-height: 75px;
+    }
+    
+    .two{
+        width: 480px;
+        height: 150px;
+        background-color: indigo;
+        line-height: 150px;
+        border-bottom: solid 1px;
+        border-right: solid 1px;
+        border-left: solid 1px;
+    }
+
+    .three{
+        width: 480px;
+        height: 125px;
+        background-color: rgb(140, 112, 160);
+        line-height: 125px;
+        border-bottom: solid 1px;
+        border-right: solid 1px;
+        border-left: solid 1px;
+    }
+
+    .four{
+        width: 480px;
+        height: 125px;
+        background-color: rgb(145, 6, 103);
+        line-height: 125px;
+        border-bottom: solid 1px;
+        border-right: solid 1px;
+        border-left: solid 1px;
+    }
+
+    .five{
+        width: 240px;
+        height: 250px;
+        background-color: rgb(53, 52, 54);
+        line-height: 250px;
+        border-bottom: solid 1px;
+        border-right: solid 1px;
+        border-left: solid 1px;
+    }
+
+    .six{
+        width: 240px;
+        height: 250px;
+        background-color: rgb(105, 22, 94);
+        line-height: 250px;
+        border-bottom: solid 1px;
+        border-right: solid 1px;
+        border-left: solid 1px;
+    }
+
+    .seven{
+        width: 240px;
+        height: 250px;
+        background-color: rgb(199, 81, 173);
+        line-height: 250px;
+        border-bottom: solid 1px;
+        border-right: solid 1px;
+        border-left: solid 1px;
+    }
+    .eight{
+        width: 240px;
+        height: 250px;
+        background-color: rgb(67, 10, 105);
+        line-height: 250px;
+        border-bottom: solid 1px;
+        border-right: solid 1px;
+        border-left: solid 1px;
+    }
+    .nine{
+        width: 480px;
+        height: 80px;
+        background-color: rgb(138, 3, 32);
+        line-height:80px ;
+        border-bottom: solid 1px;
+        border-right: solid 1px;
+        border-left: solid 1px;
+    }
+
+    #grid-container{
+        display: grid;
+        /* grid-column-gap:0 ;
+        grid-row-gap: 0; */
+        grid-template-columns: auto auto ;
+    }
+
+    
+}
+
+@media screen and (min-width:768px) and (max-width:960px){
+    .one{
+      border: solid 1px black;
+        width: 960px;
+        height: 100px;
+        /* border: 1px solid; */
+        background-color: rgb(160, 94, 127);
+        line-height: 100px;
+    }
+    
+    .two{
+        width: 200px;
+        height: 600px;
+        background-color: rgb(108, 69, 128);
+        line-height: 600px;
+        border-bottom: solid 1px black;
+        border-right: solid 1px black;
+        border-left: solid 1px black;
+    }
+
+    .three{
+        width: 380px;
+        height: 200px;
+        background-color: rgb(183, 139, 226);
+        line-height: 200px;
+        border-bottom: solid 1px black;
+        border-right: solid 1px black;
+        border-left: solid 1px black;   
+    }
+
+    .four{
+        width: 380px;
+        height: 200px;
+        background-color: rgb(209, 141, 209);
+        line-height: 200px;
+        border-bottom: solid 1px black;
+        border-right: solid 1px black;
+        border-left: solid 1px black;
+    }
+
+    .five{
+        width: 190px;
+        height: 250px;
+        background-color: rgb(156, 128, 184);
+        line-height: 250px;
+        margin-left: 200px;
+        border-bottom: solid 1px black;
+        border-right: solid 1px black;
+        border-left: solid 1px black;
+    }
+
+    .six{
+        width: 190px;
+        height: 250px;
+        background-color: rgb(133, 86, 126);
+        line-height: 250px;
+        border-bottom: solid 1px black;
+        border-right: solid 1px black;
+        border-left: solid 1px black;
+    }
+
+    .seven{
+        width: 190px;
+        height: 250px;
+        background-color: rgb(150, 118, 118);
+        line-height: 250px;
+        border-bottom: solid 1px black;
+        border-right: solid 1px black;
+        border-left: solid 1px black;
+    }
+    .eight{
+        width: 190px;
+        height: 250px;
+        background-color: rgb(118, 119, 122);
+        line-height: 250px;
+        border-bottom: solid 1px black;
+        border-right: solid 1px black;
+        border-left: solid 1px black;
+    }
+    .nine{
+        width: 760px;
+        height: 150px;
+        background-color: rgb(146, 125, 128);
+        line-height:150px ;
+        border-bottom: solid 1px black;
+        border-right: solid 1px black;
+        border-left: solid 1px black;
+        margin-left: 200px;
+    }
+
+    .flex-box{
+        display: flex;
+        flex-direction: row; 
+        flex-wrap: wrap;
+        margin-top: -600px;
+        margin-left: 200px; }
+    
+
+        #grid-container{
+            display: grid;
+            /* grid-column-gap:0 ;
+            grid-row-gap: 0; */
+            /* grid-template-rows: auto ; */
+            /* grid-row: 3/4; */
+        }
+
+        .five , .six ,.seven,.eight{
+            grid-row: 2/4;
+        }
+    }
